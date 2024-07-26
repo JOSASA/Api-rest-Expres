@@ -1,0 +1,62 @@
+<h3>Cita</h3>
+<form name="frm_cita" id="frm_cita">
+    <input type="hidden" name="accion" id="accion" value="I" />
+    <table>
+        <tr>
+            <td>
+                Vehiculo:
+            </td>
+            <td>
+                <select name="vehiculo_id" id="Vehiculo_id">
+                    <option>Seleccione el Dueño</option>
+                </select>    
+            </td>
+        </tr>            
+        <tr>
+            <td>
+                refaccion:
+            </td>
+            <td>
+                <select name="refaccion_id" id="refaccion">
+                    <option>Seleccione refaccion</option>
+                </select>    
+            </td>
+        </tr>    
+       <tr>
+            <td>
+                Fecha:
+            </td>
+            <td>
+                <input type="date" name="fecha" id="fecha"/>    
+            </td>
+       </tr> 
+       <tr>
+          <td>
+            Tipo de Mantenimiento:
+          </td> 
+        <td>
+            <select name="tipo_mantenimiento" id="tipo_mantenimiento">
+                <option value="Mantenimiento">Mantenimiento</option>
+                <option value="Reparacion">Reparacion</option>
+            </select>
+            
+        </td>
+       </tr>
+       <tr>
+        <td>
+            Descripcion:
+          </td> 
+        <td>
+            <input type="text" name="descripcion" id="descripcion"/>
+
+       </tr>
+       <tr>
+        <td>
+            <button name="enviar" type="button" onclick="procesarFormulario(this)" >Enviar!</button>
+        </td>
+       </tr>
+
+
+    </table>
+</form>
+

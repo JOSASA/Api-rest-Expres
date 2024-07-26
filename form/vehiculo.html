@@ -1,0 +1,65 @@
+<h3>Vehiculo</h3>
+<form name="frm_vehiculo" id="frm_vehiculo">
+    <input type="hidden" name="accion" id="accion" value="I" />
+    <table>
+        <tr>
+            <td>
+                id:
+            </td>
+            <td>
+                <input type="text" name="id" id="id" readonly />    
+            </td>
+        </tr>    
+        <tr>
+            <td>
+                Cliente:
+            </td>
+            <td>
+                <select name="cliente_id" id="cliente_id" >
+                    <option value="" >Seleccione el dueño</option>
+                </select>    
+            </td>
+        </tr>            
+        <tr>
+            <td>
+                marca:
+            </td>
+            <td>
+                <input type="text" name="marca" id="marca"/>   
+            </td>
+        </tr>    
+       <tr>
+            <td>
+                modelo:
+            </td>
+            <td>
+                <input type="text" name="modelo" id="modelo"/>    
+            </td>
+       </tr> 
+       <tr>
+        <td>
+            año:
+        </td>
+        <td>
+            <input type="number" name="año" id="año" />    
+        </td>
+   </tr> 
+       <tr>
+        <td>
+            Numero de Serie:
+          </td> 
+        <td>
+            <td>
+                <input type="text" name="numero_serie" id="numero_serie" />    
+            </td>
+       </tr>
+       <tr>
+        <td>
+            <button name="enviar" type="button" onclick="procesarFormulario(this)" >Enviar!</button>
+        </td>
+       </tr>
+
+
+    </table>
+</form>
+
